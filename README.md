@@ -7,6 +7,19 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
+## 📌 The Business Problem
+## 🔍 The Investigation
+## 📊 Dashboard Pages
+## 💡 Recommendations
+## 🛠️ Technical Implementation
+## 📁 Project Structure
+## 🚀 How to Access the Project
+## 📄 Full Report
+## 🛠️ Tools & Technology          
+## 👨‍💻 About the Analyst
+## 📄 License
+
+---
 
 ## 📌 The Business Problem
 
@@ -192,3 +205,165 @@ CREATE TABLE contracts (
     end_date DATE,
     FOREIGN KEY (client_id) REFERENCES clients(id)
 );
+
+
+## 📁 Project Structure
+Harmony-Grove-Dashboard/
+│
+├── Data/
+│ ├── schema.sql # SQL table definitions
+│ ├── payment.xlsx # Transaction data
+│ ├── tutors.xlsx # Tutor profiles and ratings
+│ ├── clients.xlsx # Client information
+│ ├── corporate_contracts.xlsx #  Corporate Client information
+│ └── subscriptions.xlsx # Subscription records
+│
+├── Dashboard/
+│ └── harmony grove dashboard.pbix # Power BI dashboard file
+│
+├── DAX_Measures/
+│ └── dax.txt # All DAX measures with comments
+│
+├── Screenshots/
+│ ├── page1_revenue_overview.png # Page 1 dashboard screenshot
+│ ├── page2_tutors_behavior.png # Page 2 dashboard screenshot
+│ └── page3_clients_behavior.png # Page 3 dashboard screenshot
+│
+├── Report/
+│ └── Harmony_Grove_Report.docx # Full business report
+│
+└── README.md # Project documentation
+
+text
+
+## 🚀 How to Access the Dashboard
+
+### Option 1: View Screenshots
+If you just want to see what the dashboard looks like, check out the screenshots in the `Screenshots/` folder:
+- [Page 1 – Revenue Overview](./Screenshots/page1_revenue_overview.png)
+- [Page 2 – Tutors' Behavior](./Screenshots/page2_tutors_behavior.png)
+- [Page 3 – Clients' Behavior](./Screenshots/page3_clients_behavior.png)
+
+### Option 2: Download the Power BI File
+1. Download the `harmony grove dashboard.pbix` file from the `dashboard/` folder.
+2. Open with **Power BI Desktop** (free download from [Microsoft](https://powerbi.microsoft.com/en-us/desktop/)).
+3. Ensure the data sources are correctly linked (the data files are in the `Data/` folder).
+4. Explore the interactive dashboards.
+
+### Option 3: Read the Full Report
+Download the full business report for detailed findings and recommendations:
+📄 [Download Full Report](./Report/Harmony_Grove_Report.docx)
+
+### Option 4: Review the Code
+- **SQL Schema:** View the database structure in [`Data/schema.sql`](./Data/schema.sql)
+- **DAX Measures:** View all calculated measures in [`DAX_Measures/dax.txt`](./DAX_Measures/dax.txt)
+
+---
+
+## 📊 Dashboard Preview
+
+| Page | Description | Screenshot |
+| :--- | :--- | :--- |
+| **Page 1** | Revenue Overview – ₦80.37M generated, revenue by segment/city/instrument | [View](./Screenshots/page1_revenue_overview.png) |
+| **Page 2** | Tutors' Behavior – 88 tutors, 72.7% retention, attrition analysis | [View](./Screenshots/page2_tutors_behavior.png) |
+| **Page 3** | Clients' Behavior – 43% renewal rate, 47.8% corporate utilization | [View](./Screenshots/page3_clients_behavior.png) |
+
+---
+## 🛠️ Tools & Technology
+
+| Tool | Purpose |
+| :--- | :--- |
+| **Power BI** | Data visualization and interactive dashboard development |
+| **Power Query** | Data cleaning, transformation, and preparation within Power BI and Excel |
+| **Microsoft Excel** | Initial data exploration, validation, and supplementary analysis |
+| **SQL** | Data extraction, exploration, querying, and database modeling |
+| **DAX** | Creating calculated measures, KPIs, and business metrics |
+| **GitHub** | Version control and project hosting |
+
+---
+
+### Technical Skills Demonstrated
+
+| Skill | How It Was Used |
+| :--- | :--- |
+| **SQL Data Exploration** | Wrote queries to explore data distributions, identify outliers, and validate relationships between tables before building the dashboard |
+| **Power Query (M Language)** | Cleaned and transformed raw data: handled missing values, standardized formats, merged tables, and created calculated columns |
+| **Data Modeling** | Designed a star schema with fact and dimension tables for revenue, tutors, clients, subscriptions, and contracts |
+| **DAX Measures** | Created complex calculated measures for retention rates, utilization, churn analysis, and revenue per tutor |
+| **Interactive Dashboards** | Built three interconnected pages with slicers, filters, and drill-through capabilities |
+| **Business Intelligence** | Translated raw data into actionable insights and strategic recommendations |
+| **Data Storytelling** | Presented findings in a clear, business-focused narrative with supporting visuals |
+
+---
+
+### Workflow Overview
+Raw Data (Excel/CSV)
+↓
+SQL Data Exploration (Identify patterns, outliers, relationships)
+↓
+Power Query (Cleaning, transformation, merging)
+↓
+Power BI (Data modeling, DAX measures, visualization)
+↓
+Interactive Dashboard (3 pages with filters and drill-through)
+↓
+Business Insights & Recommendations
+
+text
+
+---
+
+### Software Versions
+
+| Tool | Version |
+| :--- | :--- |
+| **Power BI Desktop** | October 2023 or later |
+| **Microsoft Excel** | 2016 or later |
+| **Power Query (M Language)** | Built into Power BI and Excel |
+| **SQL** | MySQL / SQL Server compatible |
+
+---
+
+
+---
+
+### Why These Tools?
+
+| Tool | Why It Was Chosen |
+| :--- | :--- |
+| **SQL** | Industry-standard for data extraction and exploration; essential for understanding data before building visualizations |
+| **Power Query** | Powerful ETL (Extract, Transform, Load) tool that reduces manual cleaning time by up to 80% |
+| **Power BI** | Industry-standard for business intelligence; interactive visualizations; widely used by employers |
+| **DAX** | Required for advanced calculations in Power BI; demonstrates analytical and formula-building skills |
+| **Excel** | Universal tool for quick validation and supplementary analysis; accessible to all stakeholders |
+
+## 👨‍💻 About the Analyst
+
+**Francis Blessing Osewayeme**  
+Data Analyst | BI Intelligence | People Analyst
+
+I am a Data Analyst with a unique blend of sociological insight and HR expertise, transforming complex datasets into actionable business strategies. I am proficient in end-to-end data workflows using **Power BI, SQL, Python, and Excel**, delivering interactive dashboards that drive strategic decision-making.
+
+**What I Bring:**
+- 🎯 **Data-Driven Decision Making:** I build dashboards that give leadership real-time visibility into business performance.
+- 🔍 **Analytical Thinking:** I dig deeper to uncover root causes, not just surface-level metrics.
+- 📊 **Technical Skills:** Power BI, Excel, SQL, Python (Basic), DAX, Data Visualization.
+- 💬 **Communication:** I translate complex data into clear, business-relevant insights.
+
+**Why I Built This Project:**
+Harmony Grove was a real business with real challenges. I wanted to show that I can take messy, scattered data and turn it into clear, actionable intelligence. This project demonstrates my ability to identify business problems, build a structured solution, and deliver recommendations that drive measurable impact.
+
+**Connect With Me:**
+- 📧 Email: [francisose.data@gmail.com](mailto:francisose.data@gmail.com)
+- 📱 Phone: 08162572994
+- 🔗 LinkedIn: [linkedin.com/in/ose-francis](https://linkedin.com/in/ose-francis)
+- 🌐 Portfolio: [francisosedata-tech.github.io/Francis-Blessing-Osewayeme-Portfolio/](https://francisosedata-tech.github.io/Francis-Blessing-Osewayeme-Portfolio/)
+- 🐦 X (Twitter): [x.com/DataAnalystOse](https://x.com/DataAnalystOse)
+
+---
+
+## 📄 License
+
+This project is for portfolio demonstration purposes only. All data is fictional and anonymized.
+
+---
