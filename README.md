@@ -191,7 +191,7 @@ Download the full business report for detailed findings and recommendations:
 
 | Page | Description | Screenshot |
 | :--- | :--- | :--- |
-| **Page 1** | Revenue Overview – ₦80.37M generated, revenue by segment/city/instrument | [View]((https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/Business%20revenue%20dashboard.png) |
+| **Page 1** | Revenue Overview – ₦80.37M generated, revenue by segment/city/instrument | [View](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/Business%20revenue%20dashboard.png) |
 | **Page 2** | Tutors' Behavior – 88 tutors, 72.7% retention, attrition analysis | [View](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/tutors%20dashboard.png) |
 | **Page 3** | Clients' Behavior – 43% renewal rate, 47.8% corporate utilization | [View](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/client%20dashoard.png) |
 
