@@ -86,7 +86,7 @@ This project builds a structured data model and interactive Power BI dashboard t
 - Revenue by Segment, City, Instrument, and Referral Source
 - Revenue Trend Over Time
 
-### Page 2 - Tutors' Behavior
+### Page 2 - Clients' Behavior
 
 ![Page 2](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/05a516312b5d464d5a80214327845f9d6a50fd96/Data/screenshots/client%20dashoard.png)
 
@@ -95,7 +95,7 @@ This project builds a structured data model and interactive Power BI dashboard t
 - Inactive Tutor Exit Reasons
 - Tutor Distribution by City and Instrument
 
-### Page 3 -  Clients' Behavior
+### Page 3 -  Tutors' Behavior
 ![page 3](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/05a516312b5d464d5a80214327845f9d6a50fd96/Data/screenshots/tutors%20dashboard.png)
 
 - Total Subscriptions: 138 | Active: 59 | Renewal Rate: 43%
