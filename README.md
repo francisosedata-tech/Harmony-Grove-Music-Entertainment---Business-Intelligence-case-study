@@ -139,6 +139,7 @@ Based on the findings, I recommended the following:
 ---
 
 ## 📁 Project Structure
+
 Harmony-Grove-Dashboard/
 │
 ├── Data/
@@ -165,13 +166,13 @@ Harmony-Grove-Dashboard/
 │
 └── README.md # Project documentation
 
-text
+
 
 ## 🚀 How to Access the Dashboard
 
 ### Option 1: View Screenshots
 If you just want to see what the dashboard looks like, check out the screenshots in the `Screenshots/` folder:
-- [Page 1 – Revenue Overview](./Screenshots/page1_revenue_overview.png)
+- [Page 1 – Revenue Overview](./Screenshots/page1_business revenue dashboard.png)
 - [Page 2 – Tutors' Behavior](./Screenshots/page2_tutors_behavior.png)
 - [Page 3 – Clients' Behavior](./Screenshots/page3_clients_behavior.png)
 
@@ -228,6 +229,7 @@ Download the full business report for detailed findings and recommendations:
 ---
 
 ### Workflow Overview
+
 Raw Data (Excel/CSV)
 ↓
 SQL Data Exploration (Identify patterns, outliers, relationships)
@@ -240,7 +242,7 @@ Interactive Dashboard (3 pages with filters and drill-through)
 ↓
 Business Insights & Recommendations
 
-text
+
 
 ---
 
