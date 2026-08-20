@@ -172,7 +172,7 @@ Harmony-Grove-Dashboard/
 
 ### Option 1: View Screenshots
 If you just want to see what the dashboard looks like, check out the screenshots in the `Screenshots/` folder:
-- [Page 1 – Revenue Overview](./Screenshots/page1_business revenue dashboard.png)
+- [Page 1 – Revenue Overview](Data/screenshots/Business revenue dashboard.png)
 - [Page 2 – Tutors' Behavior](./Screenshots/page2_tutors_behavior.png)
 - [Page 3 – Clients' Behavior](./Screenshots/page3_clients_behavior.png)
 
