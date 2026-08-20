@@ -4,7 +4,7 @@
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/56262fb59e4d8fc6ed8b0d8c673879a62e72a45f/Data/Harmony%20Grove%20logo.jpeg
+!(https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/56262fb59e4d8fc6ed8b0d8c673879a62e72a45f/Data/Harmony%20Grove%20logo.jpeg)
 ---
 
 ## 📌 The Business Problem
