@@ -208,7 +208,32 @@ CREATE TABLE contracts (
     FOREIGN KEY (client_id) REFERENCES clients(id)
 );
 
----
+**Key DAX Measures**
+
+// Revenue Generated (Collected)
+Revenue Generated = 
+SUM(transactions[amount]) - SUM(transactions[refund_amount])
+
+// Tutor Retention Rate
+Tutor Retention Rate = 
+DIVIDE(
+    CALCULATE(COUNT(tutors[id]), tutors[status] = "Active"),
+    COUNT(tutors[id])
+)
+
+// Corporate Contract Utilization
+Contract Utilization = 
+DIVIDE(
+    SUM(contracts[sessions_used]),
+    SUM(contracts[sessions_purchased])
+)
+
+// Subscription Renewal Rate
+Renewal Rate = 
+DIVIDE(
+    CALCULATE(COUNT(subscriptions[id]), subscriptions[renewed_flag] = TRUE),
+    COUNT(subscriptions[id])
+)
 
 ## 📁 Project Structure
 Harmony-Grove-Dashboard/
