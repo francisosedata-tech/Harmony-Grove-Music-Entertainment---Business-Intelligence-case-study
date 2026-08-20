@@ -183,8 +183,8 @@ Download the full business report for detailed findings and recommendations:
 📄 [Download Full Report](./Report/Harmony_Grove_Report.docx)
 
 ### Option 4: Review the Code
-- **SQL Schema:** View the database structure in [`Data/schema.sql`](./Data/schema.sql)
-- **DAX Measures:** View all calculated measures in [`DAX_Measures/dax.txt`](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/9591d898369eb83b69b81fed2c910db8e6469f14/Data/sql/business_questions.sql)
+- **SQL Schema:** View the database structure in [`Data/schema.sql`](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/9591d898369eb83b69b81fed2c910db8e6469f14/Data/sql/business_questions.sql)
+- **DAX Measures:** View all calculated measures in [`DAX_Measures/dax.txt`](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/7edf47eeb6430c8fa199fa56e18ed04df601570d/Data/DAX_measures/dax/measures.md)
 ---
 
 ## 📊 Dashboard Preview
