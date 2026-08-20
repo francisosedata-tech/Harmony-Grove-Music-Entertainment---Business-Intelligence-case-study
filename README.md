@@ -11,13 +11,13 @@
 ## 🔍 The Investigation
 ## 📊 Dashboard Pages
 ## 💡 Recommendations
-## 🛠️ Technical Implementation
 ## 📁 Project Structure
 ## 🚀 How to Access the Project
 ## 📄 Full Report
 ## 🛠️ Tools & Technology          
 ## 👨‍💻 About the Analyst
 ## 📄 License
+## 🛠️ Technical Implementation
 
 ---
 
@@ -137,103 +137,6 @@ Based on the findings, I recommended the following:
 7. **Reassess tutor staffing levels in Enugu and Lagos against actual demand.** The lowest revenue and transactions per tutor in the business, despite the largest tutor headcounts, suggests these markets may be over-staffed relative to booking volume — worth investigating before adding further tutors in these cities.
 
 ---
-
-## 🛠️ Technical Implementation
-
-### Data Model (SQL Schema)
-
-The database consists of five tables that capture the core business entities:
-
-```sql
--- Tutors Table
-CREATE TABLE tutors (
-    id VARCHAR(10) PRIMARY KEY,
-    name VARCHAR(100),
-    city VARCHAR(50),
-    instrument VARCHAR(50),
-    rating DECIMAL(3,2),
-    rating_band VARCHAR(10),
-    status VARCHAR(20),
-    exit_reason VARCHAR(100),
-    join_date DATE
-);
-
--- Clients Table
-CREATE TABLE clients (
-    id VARCHAR(10) PRIMARY KEY,
-    name VARCHAR(100),
-    city VARCHAR(50),
-    status VARCHAR(20),
-    referral_source VARCHAR(50),
-    segment VARCHAR(20)
-);
-
--- Transactions Table
-CREATE TABLE transactions (
-    id VARCHAR(10) PRIMARY KEY,
-    client_id VARCHAR(10),
-    tutor_id VARCHAR(10),
-    amount DECIMAL(10,2),
-    refund_amount DECIMAL(10,2),
-    status VARCHAR(20),
-    segment VARCHAR(20),
-    instrument VARCHAR(50),
-    city VARCHAR(50),
-    transaction_date DATE,
-    FOREIGN KEY (client_id) REFERENCES clients(id),
-    FOREIGN KEY (tutor_id) REFERENCES tutors(id)
-);
-
--- Subscriptions Table
-CREATE TABLE subscriptions (
-    id VARCHAR(10) PRIMARY KEY,
-    client_id VARCHAR(10),
-    plan_name VARCHAR(50),
-    status VARCHAR(20),
-    renewed_flag BOOLEAN,
-    start_date DATE,
-    end_date DATE,
-    FOREIGN KEY (client_id) REFERENCES clients(id)
-);
-
--- Corporate Contracts Table
-CREATE TABLE contracts (
-    id VARCHAR(10) PRIMARY KEY,
-    client_id VARCHAR(10),
-    sessions_purchased INT,
-    sessions_used INT,
-    status VARCHAR(20),
-    start_date DATE,
-    end_date DATE,
-    FOREIGN KEY (client_id) REFERENCES clients(id)
-);
-
-**Key DAX Measures**
-
-// Revenue Generated (Collected)
-Revenue Generated = 
-SUM(transactions[amount]) - SUM(transactions[refund_amount])
-
-// Tutor Retention Rate
-Tutor Retention Rate = 
-DIVIDE(
-    CALCULATE(COUNT(tutors[id]), tutors[status] = "Active"),
-    COUNT(tutors[id])
-)
-
-// Corporate Contract Utilization
-Contract Utilization = 
-DIVIDE(
-    SUM(contracts[sessions_used]),
-    SUM(contracts[sessions_purchased])
-)
-
-// Subscription Renewal Rate
-Renewal Rate = 
-DIVIDE(
-    CALCULATE(COUNT(subscriptions[id]), subscriptions[renewed_flag] = TRUE),
-    COUNT(subscriptions[id])
-)
 
 ## 📁 Project Structure
 Harmony-Grove-Dashboard/
@@ -395,3 +298,74 @@ Harmony Grove was a real business with real challenges. I wanted to show that I 
 This project is for portfolio demonstration purposes only. All data is fictional and anonymized.
 
 ---
+
+## 🛠️ Technical Implementation
+
+### Data Model (SQL Schema)
+
+The database consists of five tables that capture the core business entities:
+
+```sql
+-- Tutors Table
+CREATE TABLE tutors (
+    id VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(100),
+    city VARCHAR(50),
+    instrument VARCHAR(50),
+    rating DECIMAL(3,2),
+    rating_band VARCHAR(10),
+    status VARCHAR(20),
+    exit_reason VARCHAR(100),
+    join_date DATE
+);
+
+-- Clients Table
+CREATE TABLE clients (
+    id VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(100),
+    city VARCHAR(50),
+    status VARCHAR(20),
+    referral_source VARCHAR(50),
+    segment VARCHAR(20)
+);
+
+-- Transactions Table
+CREATE TABLE transactions (
+    id VARCHAR(10) PRIMARY KEY,
+    client_id VARCHAR(10),
+    tutor_id VARCHAR(10),
+    amount DECIMAL(10,2),
+    refund_amount DECIMAL(10,2),
+    status VARCHAR(20),
+    segment VARCHAR(20),
+    instrument VARCHAR(50),
+    city VARCHAR(50),
+    transaction_date DATE,
+    FOREIGN KEY (client_id) REFERENCES clients(id),
+    FOREIGN KEY (tutor_id) REFERENCES tutors(id)
+);
+
+-- Subscriptions Table
+CREATE TABLE subscriptions (
+    id VARCHAR(10) PRIMARY KEY,
+    client_id VARCHAR(10),
+    plan_name VARCHAR(50),
+    status VARCHAR(20),
+    renewed_flag BOOLEAN,
+    start_date DATE,
+    end_date DATE,
+    FOREIGN KEY (client_id) REFERENCES clients(id)
+);
+
+-- Corporate Contracts Table
+CREATE TABLE contracts (
+    id VARCHAR(10) PRIMARY KEY,
+    client_id VARCHAR(10),
+    sessions_purchased INT,
+    sessions_used INT,
+    status VARCHAR(20),
+    start_date DATE,
+    end_date DATE,
+    FOREIGN KEY (client_id) REFERENCES clients(id)
+);
+
