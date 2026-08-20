@@ -142,6 +142,8 @@ Based on the findings, I recommended the following:
 
 ### Data Model (SQL Schema)
 
+The database consists of five tables that capture the core business entities:
+
 ```sql
 -- Tutors Table
 CREATE TABLE tutors (
@@ -206,6 +208,7 @@ CREATE TABLE contracts (
     FOREIGN KEY (client_id) REFERENCES clients(id)
 );
 
+---
 
 ## 📁 Project Structure
 Harmony-Grove-Dashboard/
