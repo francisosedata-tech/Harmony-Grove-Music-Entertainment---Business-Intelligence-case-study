@@ -180,7 +180,7 @@ If you just want to see what the dashboard looks like, check out the screenshots
 
 ### Option 3: Read the Full Report
 Download the full business report for detailed findings and recommendations:
-📄 [Download Full Report](./Report/Harmony_Grove_Report.docx)
+📄 [Download Full Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/79c804ca336fb616b13889bf593f4e18eec06ab6/Data/Report/Harmony%20Grove%20%20Report.pdf)
 
 ### Option 4: Review the Code
 - **SQL Schema:** View the database structure in [`Data/schema.sql`](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/9591d898369eb83b69b81fed2c910db8e6469f14/Data/sql/business_questions.sql)
@@ -191,9 +191,9 @@ Download the full business report for detailed findings and recommendations:
 
 | Page | Description | Screenshot |
 | :--- | :--- | :--- |
-| **Page 1** | Revenue Overview – ₦80.37M generated, revenue by segment/city/instrument | [View](./Screenshots/page1_revenue_overview.png) |
-| **Page 2** | Tutors' Behavior – 88 tutors, 72.7% retention, attrition analysis | [View](./Screenshots/page2_tutors_behavior.png) |
-| **Page 3** | Clients' Behavior – 43% renewal rate, 47.8% corporate utilization | [View](./Screenshots/page3_clients_behavior.png) |
+| **Page 1** | Revenue Overview – ₦80.37M generated, revenue by segment/city/instrument | [View]((https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/Business%20revenue%20dashboard.png)) |
+| **Page 2** | Tutors' Behavior – 88 tutors, 72.7% retention, attrition analysis | [View](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/tutors%20dashboard.png) |
+| **Page 3** | Clients' Behavior – 43% renewal rate, 47.8% corporate utilization | [View](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/client%20dashoard.png) |
 
 ---
 ## 🛠️ Tools & Technology
