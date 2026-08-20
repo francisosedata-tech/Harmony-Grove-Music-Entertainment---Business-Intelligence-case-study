@@ -79,14 +79,14 @@ This project builds a structured data model and interactive Power BI dashboard t
 
 ## 📊 Dashboard Pages
 
-### Revenue Overview
+### Page 1 - Revenue Overview
 ![page 1](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/05a516312b5d464d5a80214327845f9d6a50fd96/Data/screenshots/Business%20revenue%20dashboard.png)
 
 - Revenue Generated: ₦80.37M | Gross Revenue: ₦96.68M
 - Revenue by Segment, City, Instrument, and Referral Source
 - Revenue Trend Over Time
 
-### Tutors' Behavior
+### Page 2 - Tutors' Behavior
 
 ![Page 2](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/05a516312b5d464d5a80214327845f9d6a50fd96/Data/screenshots/client%20dashoard.png)
 
@@ -95,7 +95,7 @@ This project builds a structured data model and interactive Power BI dashboard t
 - Inactive Tutor Exit Reasons
 - Tutor Distribution by City and Instrument
 
-### Clients' Behavior
+### Page 3 -  Clients' Behavior
 ![page 3](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/05a516312b5d464d5a80214327845f9d6a50fd96/Data/screenshots/tutors%20dashboard.png)
 
 - Total Subscriptions: 138 | Active: 59 | Renewal Rate: 43%
