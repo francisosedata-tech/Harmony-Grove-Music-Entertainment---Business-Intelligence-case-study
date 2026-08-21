@@ -180,7 +180,7 @@ If you just want to see what the dashboard looks like, check out the screenshots
 4. Explore the interactive dashboards.
 
 ### Option 3: Read the Full Report
-Download the full business report for detailed findings and recommendations:
+Download the full business report for detailed findings and recommendations (View full report with desktop):
 📄 [Download Full Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/79c804ca336fb616b13889bf593f4e18eec06ab6/Data/Report/Harmony%20Grove%20%20Report.pdf)
 
 ### Option 4: Review the Code
