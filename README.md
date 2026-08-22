@@ -286,7 +286,7 @@ Harmony Grove was a real business with real challenges. I wanted to show that I 
 - 📧 Email: [francisose.data@gmail.com](mailto:francisose.data@gmail.com)
 - 📱 Phone: 08162572994
 - 🔗 LinkedIn: [linkedin.com/in/ose-francis](https://linkedin.com/in/ose-francis)
-- 🌐 Portfolio: [francisosedata-tech.github.io/Francis-Blessing-Osewayeme-Portfolio/](https://francisosedata-tech.github.io/Francis-Blessing-Osewayeme-Portfolio/)
+- 🌐 Portfolio: [https://francis-osewayeme-blessing-portfoli-one.vercel.app/](https://francis-osewayeme-blessing-portfoli-one.vercel.app/)
 - 🐦 X (Twitter): [x.com/DataAnalystOse](https://x.com/DataAnalystOse)
 
 ---
