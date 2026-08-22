@@ -95,11 +95,15 @@ This project builds a structured data model and interactive Power BI dashboard t
 
 ### Page 1 - Revenue Overview
 
+[Dashboard](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/Business%20revenue%20dashboard.png)
+
 - Revenue Generated: ₦80.37M | Gross Revenue: ₦96.68M
 - Revenue by Segment, City, Instrument, and Referral Source
 - Revenue Trend Over Time
 
 ### Page 2 - Clients' Behavior
+
+[Dashboard](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/client%20dashoard.png)
 
 - Total Tutors: 88 | Active: 64 | Retention Rate: 72.7%
 - Top 20 Tutors by Revenue
@@ -107,6 +111,8 @@ This project builds a structured data model and interactive Power BI dashboard t
 - Tutor Distribution by City and Instrument
 
 ### Page 3 -  Tutors' Behavior
+
+[Dashboard](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/tutors%20dashboard.png)
 
 - Total Subscriptions: 138 | Active: 59 | Renewal Rate: 43%
 - Corporate Contracts: 49 | Active: 21 | Utilization: 47.8%
@@ -167,23 +173,17 @@ Harmony-Grove-Dashboard/
 
 ## 🚀 How to Access the Dashboard
 
-### Option 1: View Screenshots
-If you just want to see what the dashboard looks like, check out the screenshots in the `Screenshots/` folder:
-- [Page 1 – Revenue Overview](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/Business%20revenue%20dashboard.png)
-- [Page 2 – Tutors' Behavior](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/tutors%20dashboard.png)
-- [Page 3 – Clients' Behavior](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/84fde3faefc40c30da1ec2e22e4cdd3f5f9c67c5/Data/screenshots/client%20dashoard.png)
-
-### Option 2: Download the Power BI File
+### Option 1: Download the Power BI File
 1. Download the `harmony grove dashboard.pbix` file from the `dashboard/` folder.
 2. Open with **Power BI Desktop** (free download from [Microsoft](https://powerbi.microsoft.com/en-us/desktop/)).
 3. Ensure the data sources are correctly linked (the data files are in the `Data/` folder).
 4. Explore the interactive dashboards.
 
-### Option 3: Read the Full Report
+### Option 2: Read the Full Report
 Download the full business report for detailed findings and recommendations (View full report with desktop):
 📄 [Download Full Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/79c804ca336fb616b13889bf593f4e18eec06ab6/Data/Report/Harmony%20Grove%20%20Report.pdf)
 
-### Option 4: Review the Code
+### Option 3: Review the Code
 - **SQL Schema:** View the database structure in [`Data/schema.sql`](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/9591d898369eb83b69b81fed2c910db8e6469f14/Data/sql/business_questions.sql)
 - **DAX Measures:** View all calculated measures in [`DAX_Measures/dax.txt`](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/7edf47eeb6430c8fa199fa56e18ed04df601570d/Data/DAX_measures/dax/measures.md)
 ---
