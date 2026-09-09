@@ -181,7 +181,7 @@ Harmony-Grove-Dashboard/
 
 ### Option 2: Read the Full Report
 Download the full business report for detailed findings and recommendations (View full report with desktop):
-📄 [Download Full Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/79c804ca336fb616b13889bf593f4e18eec06ab6/Data/Report/Harmony%20Grove%20%20Report.pdf)
+📄 [Download Full Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/a5a2c929e7001a5d33f4329032aa62c67ad02493/Data/Harmony%20Grove%20Report.pdf)
 
 ### Option 3: Review the Code
 - **SQL Schema:** View the database structure in [`Data/schema.sql`](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/9591d898369eb83b69b81fed2c910db8e6469f14/Data/sql/business_questions.sql)
