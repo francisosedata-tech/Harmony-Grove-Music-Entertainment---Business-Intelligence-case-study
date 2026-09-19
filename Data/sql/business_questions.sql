@@ -1,10 +1,10 @@
--- ============================================================
--- HARMONY GROVE - Business Question Queries
--- ============================================================
 
--- ------------------------------------------------------------
+-- HARMONY GROVE - Business Question Queries
+
+
+
 -- Q1: Does client rating predict tutor churn?
--- ------------------------------------------------------------
+
 WITH tutor_avg_rating AS (
     SELECT
         tutor_id,
@@ -33,9 +33,9 @@ GROUP BY rating_bucket
 ORDER BY rating_bucket DESC;
 
 
--- ------------------------------------------------------------
+
 -- Q2: Why are tutors leaving? (exit reason breakdown)
--- ------------------------------------------------------------
+
 SELECT
     exit_reason,
     COUNT(*) AS n_tutors,
@@ -46,9 +46,9 @@ GROUP BY exit_reason
 ORDER BY n_tutors DESC;
 
 
--- ------------------------------------------------------------
+
 -- Q3: Which segment and lesson type drive the most revenue?
--- ------------------------------------------------------------
+
 SELECT
     c.segment,
     b.lesson_type,
@@ -72,9 +72,9 @@ FROM subscriptions
 ORDER BY revenue DESC;
 
 
--- ------------------------------------------------------------
+
 -- Q4: Corporate contract utilization - are pre-paid sessions used?
--- ------------------------------------------------------------
+
 SELECT
     ct.status,
     SUM(ct.sessions_included) AS total_sessions_included,
@@ -88,9 +88,9 @@ GROUP BY ct.status
 ORDER BY utilization_rate_pct DESC;
 
 
--- ------------------------------------------------------------
+
 -- Q5: Which referral source drives the most client engagement?
--- ------------------------------------------------------------
+
 SELECT
     c.referral_source,
     COUNT(DISTINCT c.client_id) AS total_clients,
@@ -102,9 +102,9 @@ GROUP BY c.referral_source
 ORDER BY avg_bookings_per_client DESC;
 
 
--- ------------------------------------------------------------
+
 -- Bonus: Subscription renewal rate by plan
--- ------------------------------------------------------------
+
 SELECT
     plan,
     COUNT(*) AS total_subscriptions,
